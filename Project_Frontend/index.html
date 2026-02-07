@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GlowCare | Premium Natural Skincare</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GlowCare offers premium, natural, dermatologist-approved skincare for healthy, glowing skin.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <nav class="nav">
+            <h1 class="nav__logo">GlowCare</h1>
+            <ul class="nav__links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#ingredients">Ingredients</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <article class="hero__content">
+                <h2 class="hero__title">Naturally Radiant Skin, Every Day</h2>
+                <p class="hero__subtitle">
+                    Premium skincare crafted with nature’s finest ingredients and backed by dermatological science.
+                </p>
+                <div class="hero__actions">
+                    <button type="button">Shop Now</button>
+                    <button type="button">Learn More</button>
+                </div>
+            </article>
+            <img src="Images/hero.jpg" alt="Premium natural skincare products display" class="hero__image">
+        </section>
+
+        <!-- About Brand Section -->
+        <section id="about" class="about">
+            <article class="about__content">
+                <h2>About GlowCare</h2>
+                <p>
+                    GlowCare is a premium natural skincare brand dedicated to enhancing your skin’s health and radiance.
+                    Our products are thoughtfully formulated using clean, effective ingredients that are
+                    dermatologist-tested, cruelty-free, and safe for everyday use.
+                </p>
+            </article>
+        </section>
+
+        <!-- Featured Products Section -->
+        <section id="products" class="products">
+            <h2 class="products__title">Featured Products</h2>
+
+            <div class="products__list">
+
+                <article class="product-card">
+                    <img src="Images/Cleanser.jpg" alt="GlowCare Gentle Face Cleanser" class="product-card__image">
+                    <h3 class="product-card__name">Gentle Face Cleanser</h3>
+                    <p class="product-card__description">
+                        A mild, sulfate-free cleanser that removes impurities without stripping moisture.
+                    </p>
+                    <p class="product-card__price">₹499</p>
+                    <button type="button">Add to Cart</button>
+                </article>
+
+                <article class="product-card">
+                    <img src="Images/serum.jpg" alt="GlowCare Vitamin C Serum" class="product-card__image">
+                    <h3 class="product-card__name">Vitamin C Serum</h3>
+                    <p class="product-card__description">
+                        Brightens skin tone and reduces the appearance of dark spots.
+                    </p>
+                    <p class="product-card__price">₹899</p>
+                    <button type="button">Add to Cart</button>
+                </article>
+
+                <article class="product-card">
+                    <img src="Images/Moisturizer.jpg" alt="GlowCare Hydrating Moisturizer" class="product-card__image">
+                    <h3 class="product-card__name">Hydrating Moisturizer</h3>
+                    <p class="product-card__description">
+                        Deep hydration with lightweight texture for soft, glowing skin.
+                    </p>
+                    <p class="product-card__price">₹699</p>
+                    <button type="button">Add to Cart</button>
+                </article>
+
+            
+
+                <article class="product-card">
+                    <img src="Images/sunscreen.jpg" alt="GlowCare SPF 50 Sunscreen" class="product-card__image">
+                    <h3 class="product-card__name">SPF 50 Sunscreen</h3>
+                    <p class="product-card__description">
+                        Broad-spectrum sun protection with a non-greasy finish.
+                    </p>
+                    <p class="product-card__price">₹599</p>
+                    <button type="button">Add to Cart</button>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Ingredients / Benefits Section -->
+        <section id="ingredients" class="ingredients">
+            <article class="ingredients__content">
+                <h2>Natural Ingredients & Benefits</h2>
+
+                <h3>Key Ingredients</h3>
+                <ul>
+                    <li>Aloe Vera</li>
+                    <li>Vitamin C</li>
+                    <li>Green Tea Extract</li>
+                    <li>Hyaluronic Acid</li>
+                </ul>
+
+                <h3>Skin Benefits</h3>
+                <ul>
+                    <li>Deep hydration and nourishment</li>
+                    <li>Improved skin texture and tone</li>
+                    <li>Protection from environmental damage</li>
+                    <li>Healthy, natural glow</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Customer Reviews Section -->
+        <section id="reviews" class="reviews">
+            <h2>What Our Customers Say</h2>
+
+            <article class="review">
+                <h3>Priya Sharma</h3>
+                <p>
+                    “GlowCare products completely transformed my skincare routine. My skin feels healthier and brighter.”
+                </p>
+            </article>
+
+            <article class="review">
+                <h3>Ananya Patel</h3>
+                <p>
+                    “I love how gentle yet effective these products are. Perfect for sensitive skin.”
+                </p>
+            </article>
+
+            <article class="review">
+                <h3>Rohit Mehta</h3>
+                <p>
+                    “Minimal, premium, and truly effective skincare. Highly recommended.”
+                </p>
+            </article>
+
+            <article class="review">
+                <h3>Neha Verma</h3>
+                <p>
+                    “The results are visible within weeks. My skin feels nourished, smooth, and naturally glowing.”
+                </p>
+            </article>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+
+            <form class="contact__form" action="#" method="post">
+                <div class="form__group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form__group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer__tagline">GlowCare — Where Nature Meets Science</p>
+
+        <nav class="footer__social">
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </nav>
+
+        <p class="footer__copyright">
+            © 2026 GlowCare. All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
