@@ -28,3 +28,6 @@ JavaScript
 
 🎯 Purpose
 This project was created to showcase frontend development expertise by building a real-world, brand-focused website using core web technologies, emphasizing design quality, responsiveness, and user experience.
+
+<img width="1906" height="960" alt="Screenshot 2026-02-07 192928" src="https://github.com/user-attachments/assets/5fd3ff55-ef79-42f5-9328-4cdd52e93130" />
+
